@@ -82,7 +82,7 @@
     </p>
     <hr>
     <p>
-      Example: <strong> <%= link_to "https://libraries.io/api/npm/grunt/latest/dependencies?api_key=#{@api_key}", "https://libraries.io/api/rubygems/rails/4.2.4/dependencies?api_key=#{@api_key}" %> </strong>
+      Example: <strong> <%= link_to "https://libraries.io/api/npm/grunt/latest/dependencies?api_key=#{@api_key}", "https://libraries.io/api/npm/grunt/latest/dependencies?api_key=#{@api_key}" %> </strong>
     </p>
     <% cache "api-docs-#{@cache_version}-project-dependencies", :expires_in => 1.day do %>
       <pre class='well well-small'>
